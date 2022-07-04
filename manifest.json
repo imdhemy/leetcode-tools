@@ -1,0 +1,10 @@
+{
+  "name": "Leetcode Tools",
+  "description": "Leetcode tools, the first tools is a timer, but other tools comes later.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
