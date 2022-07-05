@@ -16,6 +16,7 @@
         "/content/timer/timer.css"
       ],
       "js": [
+        "/content/lib/ractive.min.js",
         "/content/timer/timer.js"
       ]
     }
