@@ -3,6 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
+  watch: true,
   devServer: {
     port: 9000,
   },
@@ -16,6 +17,7 @@ module.exports = {
       patterns: [
         'icon.png',
         'manifest.json',
+        {from: 'src/content', to: 'content'},
       ],
     }),
   ],

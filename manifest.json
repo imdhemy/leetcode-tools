@@ -6,5 +6,18 @@
   "action": {
     "default_popup": "index.html",
     "default_icon": "icon.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "css": [
+        "/content/timer/timer.css"
+      ],
+      "js": [
+        "/content/timer/timer.js"
+      ]
+    }
+  ]
 }
