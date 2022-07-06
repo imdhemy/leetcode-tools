@@ -12,12 +12,9 @@
       "matches": [
         "https://leetcode.com/problems/*"
       ],
-      "css": [
-        "/content/timer/timer.css"
-      ],
+      "css": [],
       "js": [
-        "/content/lib/ractive.min.js",
-        "/content/timer/timer.js"
+        "/content.js"
       ]
     }
   ]

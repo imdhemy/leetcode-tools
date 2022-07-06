@@ -29,5 +29,6 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+    "ractive": "^1.4.0"
   }
 }

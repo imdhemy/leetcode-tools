@@ -1,3 +1,5 @@
+import Ractive from 'ractive';
+
 function isCodeEditor(node) {
   return node.hasAttribute &&
     node.hasAttribute('data-cy') &&
