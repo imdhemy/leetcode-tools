@@ -12,7 +12,9 @@
       "matches": [
         "https://leetcode.com/problems/*"
       ],
-      "css": [],
+      "css": [
+        "/content.css"
+      ],
       "js": [
         "/content.js"
       ]
