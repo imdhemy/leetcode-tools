@@ -4,11 +4,10 @@
   "description": "Leetcode tools.",
   "private": "true",
   "scripts": {
-    "build": "webpack --mode=production",
-    "dev:hot": "nodemon --exec npm run-script build",
-    "dev:serve": "webpack serve",
-    "dev:sass:style": "sass --watch src/scss/content.scss dist/content.css",
-    "dev": "concurrently npm:dev:*"
+    "build": "webpack --mode=production --no-watch",
+    "dev": "webpack",
+    "sass": "sass --watch src/scss/content.scss dist/content.css",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
     "concurrently": "^7.2.2",
     "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^28.1.2",
     "nodemon": "^2.0.18",
     "sass": "^1.53.0",
     "webpack": "^5.73.0",
